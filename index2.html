@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link href="mystyles.css" rel="stylesheet" type="text/css">
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/brands.js" integrity="sha384-VLgz+MgaFCnsFLiBwE3ItNouuqbWV2ZnIqfsA6QRHksEAQfgbcoaQ4PP0ZeS0zS5"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/fontawesome.js" integrity="sha384-treYPdjUrP4rW5q82SnECO7TPVAz4bpas16yuE9F5o7CeBn2YYw1yr5oC8s8Mf8t"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/regular.css" integrity="sha384-aubIA90W7NxJ+Ly4QHAqo1JBSwQ0jejV75iHhj59KRwVjLVHjuhS3LkDAoa/ltO4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+</head>
+<div>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="#current">News</a>
+        <a href="#news">Contact</a>
+        <a href="index2.html">Register</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </a>
+    </div>
+</div>
+
+<body>
+    <h1>Registration Form</h1>
+    <form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+        <p>
+            <label>Name
+                <input type="text" name="customer_name" required>
+            </label>
+        </p>
+
+        <p>
+            <label>Phone
+                <input type="tel" name="phone_number">
+            </label>
+        </p>
+
+        <p>
+            <label>Email
+                <input type="email" name="email_address">
+            </label>
+        </p>
+        <p>
+            <label>Movie
+                <select id="movie" name="movie">
+                    <option value="" selected="selected">Select One</option>
+                    <option value="starwars">Star Wars the Last Jedi</option>
+                    <option value="coco">Coco</option>
+                    <option value="blackpanther">Black Panther</option>
+                    <option value="martian">The Martian</option>
+                    <option value="Rocky">Rocky</option>
+                    <option value="Kiterunner">The Kite Runner</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>How Many Tickets Do You Need?
+                <select id="tickets" name="tickets">
+                    <option value="" selected="selected">Select One</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+        </p>
+
+        <button>Submit</button>
+    </form>
+
+</body>
+
+<footer>
+    <div>
+        <a href="http://www.facebook.com">
+            <span style="color: white;"><i class="fab fa-facebook-square fa-2x"></i></span>
+        </a>
+        <a href="http://www.twitter.com">
+            <span style="color: white;"><i class="fab fa-twitter fa-2x"></i></span>
+        </a>
+        <a href="http://www.instagram.com">
+            <span style="color: white;"><i class="fab fa-instagram fa-2x"></i></span>
+        </a>
+    </div>
+</footer>

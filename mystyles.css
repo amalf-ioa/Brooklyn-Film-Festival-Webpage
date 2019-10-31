@@ -1,0 +1,183 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-auto-rows: 30em 30em;
+    grid-gap: 5px;
+    background-color: #3D2C3E;
+}
+
+.grid {
+    font-family: Helvetica;
+    font-size: 1.4em;
+    color: #F7F6F6;
+    text-align: middle;
+    background-color: #3D2C3E;
+}
+
+.grid div:nth-child(1) {
+    background-color: #BB99B0;
+    border: 3px solid black
+}
+
+.grid div:nth-child(2) {
+    background-color: #A75259;
+    border: 3px solid black
+}
+
+.grid div:nth-child(3) {
+    background-color: #A793A4;
+    border: 3px solid black;
+}
+
+.grid div:nth-child(4) {
+    background-color: #BB99B0;
+    border: 3px solid black
+}
+
+.grid div:nth-child(5) {
+    background-color: #A75259;
+    border: 3px solid black
+}
+
+
+.grid div:nth-child(6) {
+    background-color: #A793A4;
+    border: 3px solid black;
+}
+
+body {
+    text-align: center;
+    background-color: #3D2C3E;
+}
+
+form {
+    padding: 20em;
+    padding-top: 0em;
+    margin-top: 2px;
+    padding-bottom: 3em;
+}
+
+h1 {
+    background-image: url("http://www.byronbayblog.com.au/wp-content/uploads/2013/02/Screenside-at-sunset-cinema-BBFF2012-Credit-Sarah-Lee.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: #3d2c3e;
+    background-size: cover;
+    color: #F7F6F6;
+    font-size: 4em;
+    font-family: 'Abril Fatface', serif;
+    padding: 2em;
+    margin-top: 1px;
+    margin-bottom: 5px;
+
+}
+
+h2 {
+    background-color: #F7F6F6;
+    padding: 20px;
+    color: #3d2c3e;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1px;
+}
+
+h3 {
+    background-color: #F7F6F6;
+    color: #3D2C3E;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h5 {
+    color: #3D2C3E;
+    background-color: #f7f6f6;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h6 {
+    font-size: 16px;
+    margin-top: 4px;
+    padding-bottom: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+p {
+    background-color: #A75259;
+    padding: 30px;
+    color: #f7f6f6;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+img {
+    width: 98%;
+    height: 24em;
+
+
+}
+
+button {
+    background-color: #A75259;
+    color: #f7f6f6;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 28px;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media all and (min-width: 166px) and (max-width: 1240px) {
+    .grid {
+        display: block;
+        margin: 1em auto;
+    }
+
+    body {
+        max-width: 375px;
+        display: block;
+        margin: 30px auto;
+    }
+
+    img {
+        width: 7em;
+        height: 9em;
+        margin-top: 3px;
+    }
+
+    h6 {
+        margin-bottom: 3px;
+    }
+
+    h1 {
+        background-image: url("http://www.byronbayblog.com.au/wp-content/uploads/2013/02/Screenside-at-sunset-cinema-BBFF2012-Credit-Sarah-Lee.jpg");
+        background-position: center;
+        background-size: cover;
+        background-color: #3d2c3e;
+        background-size: cover;
+        color: #F7F6F6;
+        font-size: 2em;
+        font-family: 'Abril Fatface', serif;
+        padding: 2em;
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+
+    form {
+        max-width: 375px;
+        padding: 3px;
+    }
+}
